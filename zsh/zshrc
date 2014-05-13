@@ -61,3 +61,5 @@ export ORACLE_SID=devvm
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/michaelmunhall/.gvm/bin/gvm-init.sh" ]] && source "/Users/michaelmunhall/.gvm/bin/gvm-init.sh"
+
+source /opt/boxen/env.sh
