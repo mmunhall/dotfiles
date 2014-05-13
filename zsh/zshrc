@@ -84,4 +84,4 @@ alias sqlp="sqlplus system/canoe@'(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=
 alias ssha="ssh -p 10022 root@ammi.viviotech.net"
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/Users/michaelmunhall/.gvm/bin/gvm-init.sh" ]] && source "/Users/michaelmunhall/.gvm/bin/gvm-init.sh"
+[[ -s "/Users/mikemunhall/.gvm/bin/gvm-init.sh" ]] && source "/Users/mikemunhall/.gvm/bin/gvm-init.sh"
