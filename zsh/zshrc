@@ -65,7 +65,8 @@ source /opt/boxen/env.sh
 if [[ -n $SSH_CONNECTION ]]; then
 	export EDITOR='vim'
 else
-   export EDITOR='mvim'
+   #export EDITOR='mvim'
+   export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -74,7 +75,7 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export M2_HOME=/usr/local/maven
+# export M2_HOME=/usr/local/maven
 export DYLD_LIBRARY_PATH=/usr/local/instantclient
 export ORACLE_SID=devvm
 
