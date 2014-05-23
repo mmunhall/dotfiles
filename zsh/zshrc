@@ -11,6 +11,8 @@ ZSH_THEME="random"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias bower='noglob bower'
+alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
