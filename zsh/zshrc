@@ -12,6 +12,9 @@ ZSH_THEME="random"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias bower='noglob bower'
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
+alias cdws="cd $HOME/Documents/workspace"
+alias cdcm="cd $HOME/cm"
+alias cdcc="cd $HOME/caascore"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Uncomment the following line to use case-sensitive completion.
