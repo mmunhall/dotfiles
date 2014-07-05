@@ -15,7 +15,6 @@ alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 alias cdws="cd $HOME/Documents/workspace"
 alias cdcm="cd $HOME/cm"
 alias cdcc="cd $HOME/caascore"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -89,6 +88,10 @@ export ORACLE_SID=devvm
 alias vi=vim
 alias sqlp="sqlplus system/canoe@'(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=oraclehost)(PORT=1521)))(CONNECT_DATA=(SID=devvm)))'"
 alias ssha="ssh -p 10022 root@ammi.viviotech.net"
+alias java7="export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)"
+alias java8="export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)"
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/mikemunhall/.gvm/bin/gvm-init.sh" ]] && source "/Users/mikemunhall/.gvm/bin/gvm-init.sh"
