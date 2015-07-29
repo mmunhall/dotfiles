@@ -15,6 +15,7 @@ alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 alias cdws="cd $HOME/Documents/workspace"
 alias cdcm="cd $HOME/cm"
 alias cdcc="cd $HOME/caascore"
+alias cddmp="cd $HOME/Documents/workspace/dmp-config"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -90,8 +91,14 @@ alias sqlp="sqlplus system/canoe@'(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=
 alias ssha="ssh -p 10022 root@ammi.viviotech.net"
 alias java7="export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)"
 alias java8="export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)"
+alias java6="export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)"
 
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export DYLD_LIBRARY_PATH=/Applications/instantclient_11_2
+# export CATALINA_HOME=/opt/apache-tomcat-6.0.43/
+export CATALINA_HOME=/opt/tomcat
+
+export LOG_DIR=~/Documents/workspace/logs
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/mikemunhall/.gvm/bin/gvm-init.sh" ]] && source "/Users/mikemunhall/.gvm/bin/gvm-init.sh"
